@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationPracticePOMSuite]">
+  <test thread-count="5" name="TestCasesPractice(failed)">
+    <classes>
+      <class name="com.automationPOM.qa.testcases.HomeTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationPOM.qa.testcases.HomeTest -->
+    </classes>
+  </test> <!-- TestCasesPractice(failed) -->
+</suite> <!-- Failed suite [AutomationPracticePOMSuite] -->

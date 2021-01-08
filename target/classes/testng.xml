@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+
+<suite name="AutomationPracticePOMSuite">
+	
+	<listeners>
+	<listener class-name="com.automationPOM.qa.ExtentReportListener.ExtentReporterNG"/>
+	</listeners>
+	<test name="TestCasesPractice">
+		<classes>
+		<!-- <class name="com.automationPOM.qa.testcases.HomeTest"></class>   just commented to run the specified classes--> 
+		<class name="com.automationPOM.qa.testcases.LoginPageTest"></class>
+		<class name="com.automationPOM.qa.testcases.MyAccountTest"></class>
+		</classes>
+	</test>
+</suite>
+<!-- 
+1.We can create many testng.xml files for various types of testing eg-teshng_regression.xml, testng_sanity.xml
+2.We can assemble classes in the way we want this file to execute it ie in a sequence as we set the classes in this sheet -->
